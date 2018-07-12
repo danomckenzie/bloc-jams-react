@@ -16,6 +16,7 @@ class App extends Component {
             <Link to='/album'>Album</Link>
           </nav>
           <h1>Bloc Jams</h1>
+
         </header>
         <main>
           <Route exact path="/" component={Landing} />
