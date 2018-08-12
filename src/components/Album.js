@@ -149,7 +149,7 @@ class Album extends Component {
                 onMouseEnter={() => this.songHoverOn(index)}
                 onMouseLeave={() => this.songHoverOff(index)}>
 
-                  <td><ion-icon name="play"></ion-icon></td>
+                  
                   <td>{this.buttonHover(index, song)}</td>
                   <td>{song.title}</td>
                   <td>{this.formatTime(song.duration)}</td>
