@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 .App {
   text-align: center;
+}
+
+section {
 }
 
 .App-logo {
@@ -9,9 +14,10 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 0px;
+  padding: 0px;
   color: white;
+  text-align: center;
 }
 
 .App-title {
@@ -25,4 +31,154 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+header {
+  color: #3D3E3F;
+  padding: 0px;
+}
+
+h1 {
+  color: #3D3E3F;
+}
+
+h2 {
+  text-align: center;
+  color: #3D3E3F;
+}
+
+p {
+  color: #3D3E3F;
+}
+
+.nav {
+  background-color: #012129;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.title {
+  color: #F3F4F4;
+  font-family: raleway;
+  font-size: 40px;
+  display: block;
+}
+
+.nav-link {
+  color: #F3F4F4;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-family: ubuntu;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+}
+
+.landing {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #1D2324;
+}
+
+.hero-title {
+  color: #18ABD3;
+  font-family: raleway;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.selling-points {
+}
+
+.point {
+  text-align: left;
+}
+
+.point h2 {
+  width: 50%;
+  font-family: raleway;
+  color: #18ABD3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.point p {
+  font-family: raleway;
+  width: 40%;
+  border: 2px solid #C5EEF9;
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+  background-color: #C5EEF9;
+  display: inline-block;
+}
+
+.point-title {
+  width: 40%;
+}
+
+.point-description {
+  width: 60%;
+}
+
+.library {
+  background: linear-gradient(to bottom right, #1D1D1D, #474747);
+}
+
+.album {
+  background-color: #1D2324;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#album-cover-art {
+  padding-top: 20px;
+}
+
+#album-title {
+  color: #FFFFFF;
+  font-family: raleway;
+  font-size: 35px;
+  padding-top: 20px
+}
+
+.artist {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: raleway;
+}
+
+#song-list {
+  display: inline;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  font-family: raleway;
+}
+
+td {
+  padding-left: 30px;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+.current-time {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: raleway;
+  margin-top: 15px;
+}
+
+.total-time {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: raleway;
+  padding-bottom: 10px;
 }

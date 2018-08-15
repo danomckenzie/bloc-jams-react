@@ -10,11 +10,11 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Link to='/'>Landing</Link>
-            <Link to='/library'>Library</Link>
+          <nav className="nav">
+            <h1 className="title">Bloc Jams</h1>
+            <Link className="nav-link" to='/'>Home</Link>
+            <Link className="nav-link" to='/library'>Library</Link>
           </nav>
-          <h1>Bloc Jams</h1>
 
         </header>
         <main>

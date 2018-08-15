@@ -149,7 +149,6 @@ class Album extends Component {
                 onMouseEnter={() => this.songHoverOn(index)}
                 onMouseLeave={() => this.songHoverOff(index)}>
 
-                  
                   <td>{this.buttonHover(index, song)}</td>
                   <td>{song.title}</td>
                   <td>{this.formatTime(song.duration)}</td>
